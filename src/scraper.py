@@ -16,4 +16,4 @@ def events_of_the_day(month: str, day: int) -> List[str]:
     page = _get_page(url)
     raw_events = page.find_all(class_="event")
     events = [event.text for event in raw_events]
-    print(events)
+    return events
