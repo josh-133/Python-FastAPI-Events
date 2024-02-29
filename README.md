@@ -4,3 +4,7 @@ We'll be creating an API using FastAPI to provide us information on important ev
 Followed from this tutorial (this is part 1 of 2):
 
 https://www.youtube.com/watch?v=Nni0HX9O4hc&list=PLhH3UpV2flryU3DDc47zAbiyDdbIFnnNB
+
+To run the program, navigate to the src folder and run the following command:
+
+uvicorn main:app --reload
