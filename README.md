@@ -7,4 +7,4 @@ https://www.youtube.com/watch?v=Nni0HX9O4hc&list=PLhH3UpV2flryU3DDc47zAbiyDdbIFn
 
 To run the program, navigate to the src folder and run the following command:
 
-uvicorn main:app --reload
+```uvicorn main:app --reload```
